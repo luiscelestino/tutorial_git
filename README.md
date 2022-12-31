@@ -14,6 +14,11 @@ git add *
 git clone <url>
 ```
 
+- Copia uma branch do repositorio de origem para a maquina local.
+```
+git clone -branch new_feature <url>
+```
+
 ## git commit
 - Commita arquivos da area de stage.
 ```
@@ -49,6 +54,11 @@ git log --author="Luis Celestino"
 - Alteraçoes do projeto realizadas dentro de um periodo especifico
 ```
 git log --since=2.month.ago --until=1.day.ago
+```
+
+- Alteraçoes do projeto formatadas (https://devhints.io/git-log-format)
+```
+git log --pretty="format:%h %an %ai %s"
 ```
 
 ## git pull
