@@ -31,9 +31,24 @@ git commit . -a -m "mensagem"
 git log
 ```
 
+- Alteraçoes do projeto muitos detalhes (inclui diff)
+```
+git log -p
+```
+
 - Alteraçoes do projeto sem detalhes
 ```
 git log --online
+```
+
+- Alteraçoes do projeto realizadas por um autor especifico
+```
+git log --author="Luis Celestino"
+```
+
+- Alteraçoes do projeto realizadas dentro de um periodo especifico
+```
+git log --since=2.month.ago --until=1.day.ago
 ```
 
 ## git pull
