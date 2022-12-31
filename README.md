@@ -17,12 +17,12 @@ git clone <url>
 ## git commit
 - Commita arquivos da area de stage.
 ```
-git commit -m "mensagem"
+git commit . -m "mensagem"
 ```
 
 - Commita arquivos, adicionando automaticamente na area de stage.
 ```
-git commit -a -m "mensagem"
+git commit . -a -m "mensagem"
 ```
 
 ## git log
