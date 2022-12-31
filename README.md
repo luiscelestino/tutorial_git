@@ -49,14 +49,21 @@ git push origin main
 ```
 
 ## git restore
-- Volta versao do codigo do repositorio para um commit anterior.
+- Volta versao do codigo local para um commit anterior.
 ```
 git restore --source a01bgd2 .
 ```
 
-- Volta versao de um arquivo do repositorio para um commit anterior.
+- Volta versao de um arquivo local para um commit anterior.
 ```
 git restore --source a01bgd2 arquivo.txt
+```
+
+- Volta versao do codigo do repositorio para um commit anterior.
+```
+git restore --source a01bgd2 .
+git commit -a -m "mensagem"
+git push origin main
 ```
 
 ## git status
