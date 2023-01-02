@@ -19,6 +19,12 @@ git clone <url>
 git clone -branch new_feature <url>
 ```
 
+## git checkout
+- Cria uma nova branch, se ela nao existe, e aponta para ela. Apenas apos o primeiro push sobre esta branch que ela aparecera no repositorio.
+```
+git checkout -b desenvolvimento
+```
+
 ## git commit
 - Commita arquivos da area de stage.
 ```
@@ -68,9 +74,14 @@ git pull <url>
 ```
 
 ## git push
-- Envia alteraçoes commitadas para o branch main do repositorio de origem.
+- Envia alteraçoes commitadas para o branch 'main' do repositorio de origem.
 ```
 git push origin main
+```
+
+- Envia alteraçoes commitadas para o branch 'desenvolvimnento' do repositorio de origem.
+```
+git push origin desenvolvimento
 ```
 
 ## git restore
@@ -95,4 +106,13 @@ git push origin main
 - Verifica modificaçoes locais.
 ```
 git status
+```
+
+## git switch
+- Modifica a branch atual
+```
+git switch main
+```
+```
+git switch desenvolvimento
 ```
