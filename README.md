@@ -5,7 +5,7 @@
 ## git add
 - Coloca arquivo modificado na area stage.
 ```
-git add *
+git add .
 ```
 
 ## git clone
