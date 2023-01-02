@@ -67,6 +67,14 @@ git log --since=2.month.ago --until=1.day.ago
 git log --pretty="format:%h %an %ai %s"
 ```
 
+## git merge
+- Faz o merge da branch (desenvolvimento) indicada na branch atual (main).
+```
+git switch main
+git merge desenvolvimento
+git push origin main
+```
+
 ## git pull
 - Copia e exibe alteraçoes do repositorio de origem para a maquina local.
 ```
